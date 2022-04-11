@@ -12,3 +12,9 @@
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: var(--dl-color-primary-100);
 }
+.solid-button-root-class-name {
+  top: 76px;
+  left: -2px;
+  position: absolute;
+  align-self: center;
+}

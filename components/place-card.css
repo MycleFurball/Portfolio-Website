@@ -2,7 +2,7 @@
   display: flex;
   position: relative;
 }
-.outline-button-button {
+.outline-button-link {
   color: var(--dl-color-gray-black);
   padding-top: var(--dl-space-space-unit);
   border-color: var(--dl-color-primary-100);
@@ -11,6 +11,7 @@
   border-radius: 50px;
   padding-right: var(--dl-space-space-doubleunit);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
   background-color: var(--dl-color-gray-white);
 }
 
@@ -37,7 +38,9 @@
 }
 .place-card-text {
   font-size: 20px;
+  align-self: center;
   font-style: normal;
+  text-align: center;
   font-weight: 700;
   padding-bottom: var(--dl-space-space-halfunit);
 }
@@ -45,6 +48,13 @@
   font-size: 12px;
   max-width: 250px;
   margin-bottom: var(--dl-space-space-doubleunit);
+}
+.place-card-root-class-name {
+  align-self: center;
+}
+.place-card-root-class-name1 {
+  flex: 1;
+  align-self: flex-start;
 }
 @media(max-width: 767px) {
   .place-card-container {
