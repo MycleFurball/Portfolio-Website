@@ -40,27 +40,6 @@
   }
 }
 
-.outline-button-container {
-  display: flex;
-  position: relative;
-}
-.outline-button-button {
-  color: var(--dl-color-gray-black);
-  transition: 0.3s;
-  padding-top: var(--dl-space-space-unit);
-  border-color: var(--dl-color-primary-100);
-  border-width: 1px;
-  padding-left: var(--dl-space-space-doubleunit);
-  border-radius: 50px;
-  padding-right: var(--dl-space-space-doubleunit);
-  padding-bottom: var(--dl-space-space-unit);
-  background-color: var(--dl-color-gray-white);
-}
-.outline-button-button:hover {
-  cursor: pointer;
-  background-color: var(--dl-color-gray-900);
-}
-
 .place-card-container {
   width: 300px;
   display: flex;
@@ -155,6 +134,12 @@
   padding-bottom: 2em;
   justify-content: space-between;
 }
+.index-navlink {
+  display: contents;
+}
+.index-logo {
+  text-decoration: none;
+}
 .index-right-side {
   display: flex;
   align-items: center;
@@ -167,13 +152,18 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.index-navlink1 {
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.index-navlink2 {
+  margin: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.index-text {
+  margin-right: var(--dl-space-space-doubleunit);
+}
 .index-text01 {
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.index-text02 {
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.index-text03 {
   margin-right: var(--dl-space-space-doubleunit);
 }
 .index-link {
@@ -242,13 +232,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.index-text02 {
+  margin-bottom: 8px;
+}
+.index-text03 {
+  margin-bottom: 8px;
+}
 .index-text04 {
-  margin-bottom: 8px;
-}
-.index-text05 {
-  margin-bottom: 8px;
-}
-.index-text06 {
   margin-bottom: 8px;
 }
 .index-link01 {
@@ -260,7 +250,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.index-text08 {
+.index-text06 {
   padding-bottom: var(--dl-space-space-halfunit);
 }
 .index-icons-container {
@@ -303,7 +293,7 @@
   padding-bottom: var(--dl-space-space-tripleunit);
   justify-content: center;
 }
-.index-text09 {
+.index-text07 {
   width: 912px;
 }
 .index-content-container {
@@ -356,6 +346,18 @@
 .index-component5 {
   text-decoration: none;
 }
+.index-link08 {
+  display: contents;
+}
+.index-component6 {
+  text-decoration: none;
+}
+.index-link09 {
+  display: contents;
+}
+.index-component8 {
+  text-decoration: none;
+}
 .index-footer {
   color: var(--dl-color-gray-white);
   width: 100%;
@@ -391,11 +393,11 @@
   margin-left: 100px;
   flex-direction: column;
 }
-.index-link08 {
+.index-link10 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.index-link09 {
+.index-link11 {
   text-decoration: none;
 }
 .index-container2 {
@@ -405,11 +407,11 @@
   margin-left: 100px;
   flex-direction: column;
 }
-.index-navlink {
+.index-navlink3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.index-link10 {
+.index-link12 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -420,7 +422,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.index-text11 {
+.index-text09 {
   padding-bottom: var(--dl-space-space-halfunit);
 }
 .index-icons-container1 {
@@ -430,7 +432,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.index-link11 {
+.index-link13 {
   display: contents;
 }
 .index-icon11 {
@@ -438,7 +440,7 @@
   width: 24px;
   height: 24px;
 }
-.index-link12 {
+.index-link14 {
   display: contents;
 }
 .index-icon13 {
@@ -467,7 +469,7 @@
     max-width: 100%;
     justify-content: center;
   }
-  .index-text09 {
+  .index-text07 {
     font-size: 2.5rem;
   }
   .index-content-container {
@@ -498,7 +500,7 @@
     width: auto;
     max-width: 100%;
   }
-  .index-text09 {
+  .index-text07 {
     width: auto;
     font-size: 2rem;
     text-align: center;
@@ -517,10 +519,10 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .index-link08 {
+  .index-link10 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .index-link09 {
+  .index-link11 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .index-container2 {
@@ -528,10 +530,10 @@
     align-items: flex-start;
     margin-left: 50px;
   }
-  .index-navlink {
+  .index-navlink3 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .index-link10 {
+  .index-link12 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .index-follow-container1 {
