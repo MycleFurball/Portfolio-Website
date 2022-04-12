@@ -2,8 +2,9 @@
   display: flex;
   position: relative;
 }
-.outline-button-link {
+.outline-button-button {
   color: var(--dl-color-gray-black);
+  transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
   border-color: var(--dl-color-primary-100);
   border-width: 1px;
@@ -11,8 +12,11 @@
   border-radius: 50px;
   padding-right: var(--dl-space-space-doubleunit);
   padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
   background-color: var(--dl-color-gray-white);
+}
+.outline-button-button:hover {
+  cursor: pointer;
+  background-color: var(--dl-color-gray-900);
 }
 
 .place-card-container {
@@ -53,16 +57,29 @@
   align-self: center;
 }
 .place-card-root-class-name1 {
-  flex: 1;
-  align-self: flex-start;
+  flex: initial;
+  align-self: center;
+}
+@media(max-width: 991px) {
+  .place-card-root-class-name1 {
+    flex: initial;
+    align-self: center;
+  }
 }
 @media(max-width: 767px) {
   .place-card-container {
     width: 200px;
   }
+  .place-card-root-class-name1 {
+    flex: initial;
+  }
 }
 @media(max-width: 479px) {
   .place-card-container {
     width: 300px;
+  }
+  .place-card-root-class-name1 {
+    flex: initial;
+    align-self: center;
   }
 }
