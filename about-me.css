@@ -1,8 +1,17 @@
 .about-me-container {
   width: 100%;
   display: flex;
+  z-index: 100;
   overflow: auto;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  justify-content: flex-start;
+}
+.about-me-image {
+  width: 885px;
+  height: 666px;
+  padding: var(--dl-space-space-tripleunit);
+  object-fit: cover;
 }
