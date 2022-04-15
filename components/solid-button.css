@@ -27,6 +27,10 @@
   position: absolute;
   align-self: center;
 }
+.solid-button-root-class-name1 {
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
 @media(max-width: 479px) {
   .solid-button-root-class-name {
     flex: 0;
